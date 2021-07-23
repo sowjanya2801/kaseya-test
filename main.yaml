@@ -1,0 +1,6 @@
+- name: Windows Server Update
+  hosts: all
+  tasks:
+    - name: Update Task
+      win_updates:
+        category_names: '*'
